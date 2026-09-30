@@ -1,4 +1,6 @@
-package model;
+package Main;
+
+import model.ArvoreBinariaBusca;
 
 import java.util.Scanner;
 
@@ -83,9 +85,9 @@ public class Main {
     }
 
     private static void exibirMenu() {
-        System.out.println("\n=========================================");
-        System.out.println("    ARVORE BINARIA DE BUSCA (BST)");
-        System.out.println("=========================================");
+        System.out.println("\n=====================================================================================================");
+        System.out.println("                              ARVORE BINARIA DE BUSCA (BST)");
+        System.out.println("=======================================================================================================");
         System.out.println("1. Inserir valor");
         System.out.println("2. Buscar valor");
         System.out.println("3. Mostrar Pre-ordem (Raiz -> Esq -> Dir)");
@@ -96,7 +98,7 @@ public class Main {
         System.out.println("8. Mostrar altura da arvore");
         System.out.println("9. Mostrar estrutura da arvore");
         System.out.println("10. Sair");
-        System.out.println("-----------------------------------------");
+        System.out.println("---------------------------------------------------------------------------------------------------------");
         System.out.print("Escolha uma opcao: ");
     }
 }
